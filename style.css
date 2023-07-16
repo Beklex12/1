@@ -91,7 +91,19 @@ h2{
     
 
 }
+@keyframes bird {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 .gif{
+    animation: bird 5s ease 0s 1 normal forwards;
     text-align: center;
    
 }
