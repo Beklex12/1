@@ -49,7 +49,7 @@ h1{
 
     animation: myAnim 2s ease 0s 1 normal forwards;
     color: #8800ff;
-    text-align: center;
+   padding-left: 10%;
     font-size: 350%;
     padding: auto;
     padding-top: 20%;
@@ -68,7 +68,7 @@ h1{
 h2{
     animation: myAnim 4s ease 0s 1 normal forwards;
     color: antiquewhite;
-    text-align: center;
+    padding-left: 10%;
     padding: auto;
     
 }
@@ -85,7 +85,7 @@ h2{
     animation: myAnim 6s ease 0s 1 normal forwards;
     font-size: 200%;
     color: #8800ff;
-    text-align: center;
+    padding-left: 10%;
 }
 #achievments{
     
