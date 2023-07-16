@@ -46,10 +46,13 @@ nav ul li a {
 	}
 }
 h1{
+
     animation: myAnim 2s ease 0s 1 normal forwards;
     color: #8800ff;
     text-align: center;
     font-size: 350%;
+    padding: auto;
+    padding-top: 20%;
 }
 @keyframes myAnim {
 	0% {
@@ -66,6 +69,8 @@ h2{
     animation: myAnim 4s ease 0s 1 normal forwards;
     color: antiquewhite;
     text-align: center;
+    padding: auto;
+    
 }
 @keyframes myAnim {
 	0% {
@@ -81,7 +86,6 @@ h2{
     font-size: 200%;
     color: #8800ff;
     text-align: center;
-    margin-top: 10%;
 }
 #achievments{
     
