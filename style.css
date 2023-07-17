@@ -11,7 +11,7 @@ body, html {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: purple;
+    background-color: #3b0456;
     position: absolute;
     animation: moveBall linear infinite;
   }
@@ -93,6 +93,7 @@ h1{
 }
 h2{
     animation: myAnim 4s ease 0s 1 normal forwards;
+    font-size: 200%;
     color: antiquewhite;
     padding-left: 10%;
     padding: auto;
@@ -129,14 +130,60 @@ h2{
 		transform: translateX(0);
 	}
 }
-
+.gif{
+    animation: bird 5s ease 0s 1 normal forwards;
+   text-align: end;
+   
+}
 
 .btn-secondary {
     margin-top: 5%;
-  margin-left: 20%;
+  margin-left: 10%;
+  align-items: start;
   border: #8800ff;
   background-color: #8800ff;
   color: #000;
 
   }
+
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .container::before {
+    content: "";
+    width: 300%;
+   position: inherit;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: 10px 10px 300px 86px rgba(59,4,86,1);
+  -moz-box-shadow: 10px 10px 300px 86px rgba(59,4,86,1);
+  box-shadow: 10px 10px 300px 86px rgba(59,4,86,1);
+  }
+  
+  .ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle, purple, #3b0456);
+    box-shadow: 0 -5px 15px #3b0456;
+    position: absolute;
+    animation: moveBall linear infinite;
+  }
+  
+  @keyframes moveBall {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(100vw, 100vh);
+    }
+  }
+  
+  
   
