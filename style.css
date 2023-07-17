@@ -86,6 +86,7 @@ h2{
     font-size: 200%;
     color: #8800ff;
     padding-left: 10%;
+    text-align: start;
 }
 #achievments{
     
@@ -104,6 +105,18 @@ h2{
 }
 .gif{
     animation: bird 5s ease 0s 1 normal forwards;
-    text-align: center;
+   text-align: end;
    
 }
+.container{
+    display: flex;
+    align-items: center;
+}
+.btn-secondary {
+    margin-top: 5%;
+  margin-left: 20%;
+  border: #8800ff;
+  background-color: #8800ff;
+  color: #000;
+
+  }
